@@ -115,7 +115,7 @@ def main():
         "- adjust template as needed, press Start\n"
         "- go to LinkedIn, highlight person’s name,\n"
         "- press Ctrl+C (at this moment script does its job)\n"
-        "- open Chat/Connect/inMail/Message window on LinkedIn,\n"
+        "- click Connect->'Add a note' on LinkedIn,\n"
         "- press Ctrl+V (updated text will be pasted)\n"
         "- when finished, return and press Stop to halt the script"
     )
