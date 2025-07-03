@@ -13,8 +13,7 @@ A lightweight desktop tool to speed up sending connection messages on LinkedIn.
 <img src="li_helper_screen.jpg" alt="App Screenshot" width="400">
 
 
-## To run install dependencies
-
+## How to run: install dependencies
 ```bash
 pip install -r requirements.txt
 ```
