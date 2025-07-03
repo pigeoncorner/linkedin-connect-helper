@@ -19,10 +19,4 @@ pip install -r requirements.txt
 ```
 
 ## Portable exe generation:
-```
-pyinstaller --onefile --windowed ^
-  --icon=logo_circle.ico ^
-  --add-data "logo_circle.ico;." ^
-  --add-data "logo_start_400.png;." ^
-  --add-data "logo_stop_400.png;." ^
-  linkedin_helper_gui.py```
+```pyinstaller --onefile --windowed --icon=logo_circle.ico --add-data "logo_circle.ico;." --add-data "logo_start_400.png;." --add-data "logo_stop_400.png;." linkedin_helper_gui.py```
