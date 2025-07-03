@@ -10,20 +10,20 @@ A lightweight desktop tool to speed up sending connection messages on LinkedIn.
 - Built with Python + CustomTkinter
 
 ## 🖼️ Interface
-<img src="screenshot.png" alt="App Screenshot" width="400">
-
-> (Replace with your own screenshot or GIF)
+<img src="li_helper_screen.jpg" alt="App Screenshot" width="400">
 
 
-### To run install dependencies
+## To run install dependencies
 
 ```bash
 pip install -r requirements.txt
+```
 
 ## Portable exe generation:
+```
 pyinstaller --onefile --windowed ^
   --icon=logo_circle.ico ^
   --add-data "logo_circle.ico;." ^
   --add-data "logo_start_400.png;." ^
   --add-data "logo_stop_400.png;." ^
-  linkedin_helper_gui.py
+  linkedin_helper_gui.py```
